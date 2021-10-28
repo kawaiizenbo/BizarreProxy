@@ -18,7 +18,7 @@ namespace BizarreProxy
         {
             WebClient webClient;
             webClient = new WebClient();
-            webClient.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36");
+            webClient.Headers.Add("User-Agent", "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)");
             bool runServer = true;
             string targetURL = $"http://{baseUrl}:{port}";
 
